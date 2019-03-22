@@ -1,0 +1,409 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>RSP</title>
+  
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="description" content="StartUp Landing Page Template" />
+        <meta name="keywords" content="Treetoper, startup, landing page, gradient background, image background, video background, template, responsive, bootstrap" />
+        <meta name="developer" content="TemplateOcean">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- FAV AND TOUCH ICONS   -->
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+        <!-- GOOGLE FONTS -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+        <!-- BOOTSTRAP CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+        <!-- Image Slider -->
+        <link rel="stylesheet" href="css/plagin-css/plagin.css">
+
+        <!-- FONT ICONS -->
+        <link rel="stylesheet" href="icons/toicons/css/styles.css">
+
+        <!--   COUSTOM CSS link  -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+
+        <!--[if lt IE 9]>
+            <script src="js/plagin-js/html5shiv.js"></script>
+            <script src="js/plagin-js/respond.min.js"></script>
+        <![endif]-->
+</head>
+    <body class="">
+
+        <!-- Start: Navbar Area
+        ============================= -->
+        <header id="header" class="okayNav-header navbar-fixed-top main-navbar-top">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+                        <a class="okayNav-header__logo navbar-brand" href="#">
+                        </a>
+
+                    </div> <!-- End: .col-xs-3 -->
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+
+                        <nav role="navigation" class="okayNav pull-right" id="js-navbar-menu">
+                            <ul id="navbar-nav" class="navbar-nav">
+                                <li><a class="btn-nav" href="#features">Locate</a></li>
+                                <li><a class="btn-nav" href="#reviews">Reviews</a></li>
+                                <li><a class="btn-nav" href="#" data-toggle="modal" data-target="#sign-in-form">Sign In</a></li>
+                                <li><a class="btn-nav" href="#" data-toggle="modal" data-target="#sign-up-form">Sign Up</a></li>
+                            </ul>
+                        </nav>
+
+                    </div> <!-- End: .col-xs-9 -->
+                </div> <!-- End: .row -->
+            </div> <!-- End: .container -->
+        </header><!-- /header -->
+        <!-- End: Navbar Area
+        ============================= -->
+
+
+
+
+        <!-- Start: Sign In Form
+        ================================== -->
+        <div id="sign-in-form" class="sign-form modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    
+                    <!-- Modal Close Button -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    
+                    <form method="post" class="single-form" action="login.jsp">
+
+                        <div class="col-xs-12 text-center">
+                            <h2 class="section-heading p-b-30">Sign In</h2>
+                        </div>
+						
+						<div class="col-xs-12">
+						<center>
+                            <input type="radio" name="gender" value="Driver"> Driver
+                            <input type="radio" name="gender" value="Traveler"> Traveler
+                        <br><br>
+                        </center>
+                        </div>
+                        <div class="col-xs-12">
+                            <!-- Email -->
+                            <input name="email" class="contact-email form-control" type="email" placeholder="Email" required="">
+                        </div>
+                        <div class="col-xs-12">
+                            <!-- Subject -->
+                            <input name="password" class="contact-password form-control" type="password" placeholder="Password">
+                        </div>
+
+                        
+                        
+                        <!-- Subject Button -->
+                        <div class="btn-form text-center col-xs-12">
+                            <button class="btn btn-fill">Sign In</button>
+                        </div>
+                    </form>
+
+                </div><!-- End: .modal-content -->
+            </div><!-- End: .modal-dialog -->
+        </div><!-- End: .modal -->
+        <!-- End: Sign In Form
+        ================================== -->
+
+
+
+
+        <!-- Start: Sign Out Form
+        ================================== -->
+        <div id="sign-up-form" class="sign-form modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content p-t-30 p-b-30">
+                    
+                    <!-- Modal Close Button -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    
+                    <form method="post" class="single-form" action="signup.jsp">
+
+                        <div class="col-xs-12 text-center">
+                            <h2 class="section-heading p-b-30">Sign Up</h2>
+                        </div>
+
+                        <div class="col-xs-12">
+                            <!-- First Name -->
+                            <input name="firstname" class="contact-first-name form-control" type="text" placeholder="First Name" required="">
+                        </div>
+                        <div class="col-xs-12">
+                            <!-- Last Name -->
+                            <input name="lastname" class="contact-last-name form-control" type="text" placeholder="Last Name" required="">
+                        </div>
+                        
+                        <div class="col-xs-12">
+                            <!-- Email -->
+                            <input name="email" class="contact-email form-control" type="email" placeholder="Email" required="">
+                        </div>
+                        <div class="col-xs-12">
+                            <!-- Subject -->
+                            <input name="pass" class="contact-password form-control" type="password" placeholder="Password">
+                        </div>
+                        <div class="col-xs-12">
+                            <!-- Subject -->
+                            <input name="pass1" class="contact-cmp-password form-control" type="password" placeholder="Confirm Password">
+                        </div>
+                        <div class="col-xs-12">
+
+                            <input type="radio" name="gender" value="Driver"> Driver
+                            <input type="radio" name="gender" value="Traveler"> Traveler
+                        <br><br></div>
+                        
+                        <!-- Subject Button -->
+                        <div class="btn-form text-center col-xs-12">
+                            <button class="btn btn-fill">Sign Up</button>
+                        </div>
+                    </form>
+
+                </div><!-- End: .modal-content -->
+            </div><!-- End: .modal-dialog -->
+        </div><!-- End: .modal -->
+        <!-- End: Sign Out Form
+        ================================== -->
+
+
+
+        
+        <!-- Start: Header Section
+        ================================ -->
+        <section class="header-section-1 bg-image-1 header-js" id="header" >
+            <div class="overlay-color">
+                <div class="container">
+                    <div class="row section-separator">
+
+                        <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                            <div class="part-inner text-center">
+
+                                <!--  Header SubTitle Goes here -->
+                                <h1 class="title">Remote Security Patrol<br>:-)<br></h1> 
+
+                                <div class="detail">
+                                    <p>Providing safety measures to people remotely!</p>
+                                    <p>One best Service is waiting to Serve you!</p>
+                                </div>
+
+                                <!-- Button Area -->
+                                <div class="btn-form btn-scroll">
+                                    <a href="#aboutz" class="btn btn-border">Let's Start</a>
+                                </div><br>
+
+                            </div>
+                        </div> <!-- End: .part-1 -->
+
+                    </div> <!-- End: .row -->
+                </div> <!-- End: .container -->
+            </div> <!-- End: .overlay-color -->
+        </section>
+        <!-- End: Header Section
+        ================================ -->
+
+
+
+
+        <!-- Start: Features Section 1
+        ====================================== -->
+        <section class="features-section-1 relative background-semi-dark" id="aboutz" >
+            <div class="container">
+                <div class="row section-separator">
+
+                    <div class="each-features col-sm-6">
+                        <div class="inner text-center bg-cover light-text" style="background-image: url(images/background-2.jpg);">
+                            <div class="overlay-color">
+                                
+                                <div class="group">
+                                    <h4 class="title">ABOUT US</h4>
+                                    <div class="detail">
+                                        <p>We are a team of three members desparetly trying to improve and safeguard the traveling citizens and we will be soon providing our services in all the cities 24/7.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="each-features col-sm-6">
+                        <div class="inner text-center bg-cover light-text" style="background-image: url(images/background-3.jpg);">
+                            <div class="overlay-color">
+                                
+                                <div class="group">
+                                    <h4 class="title">OUR MISSION</h4>
+                                    <div class="detail">
+                                        <p>We are a team of three members desparetly trying to improve and safeguard the traveling citizens and we will be soon providing our services in all the cities 24/7.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div> <!-- End: .row -->
+            </div> <!-- End: .container -->
+        </section>
+        <!-- End: Features Section 1
+        ======================================-->
+
+ <!-- Start: Features Section 8
+        ================================== -->
+        <section class="features-section-8 relative background-semi-dark" id="contact">
+            <div class="container">
+                <div class="row section-separator">
+
+                    <!-- Start: Section Header -->
+                    <div class="section-header col-md-8 col-md-offset-2 ">
+                        
+                        <p class="sub-heading">Connect With Us</p>
+                        <h2 class="section-heading">Any Complaints </h2>
+
+                    </div>
+                    <!-- End: Section Header -->
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <div class="row form-outer">
+                            
+                            <form id="contact-form" method="post" class="single-form" action="php/sendmail.php">
+
+                                <div class="message col-xs-12">
+                                    <div class="inner"> 
+
+                                        <p class="email-loading"><img src="images/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Sending...</p>
+                                        <p class="email-success"><i class="icon icon-icon-check-alt2"></i> Your quote has successfully been sent.</p>
+                                        <p class="email-failed"><i class="icon icon-icon-close-alt2"></i> Something went wrong!</p>
+
+                                    </div> <!-- End: .inner -->
+                                </div> <!-- End: .message -->
+
+                                
+                                <div class="col-sm-4">
+                                    <input name="name" class="contact-name form-control" id="contact-name" type="text" placeholder="Name"  required="">
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <input name="name" class="contact-email form-control" id="contact-email" type="email" placeholder="Email"  required="">
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <input name="name" class="contact-subject form-control" id="contact-subject" type="text" placeholder="Subject"  required="">
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <textarea class="contact-message form-control" id="contact-message" rows="3" placeholder="Message" required=""></textarea>
+                                </div>
+                                
+                                <!-- Subject Button -->
+                                <div class="btn-form text-center col-xs-12">
+                                    <button class="btn btn-fill right-icon">Send Message</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div> <!-- End: .row -->
+            </div> <!-- End: .container -->
+        </section>
+        <!-- End: Features Section 8
+        ================================== -->
+
+
+
+
+        <!-- Start: Footer Section 1
+        ================================== -->
+        <footer class="footer-section background-dark">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer-header">
+                        <div class="section-separator">
+                            
+                            <div class="each-section col-sm-3 col-xs-12">
+
+                                <p class="title"><strong>Services</strong></p>
+                                <ul class="nav link-list">
+                                    <li><a href="#">Monitoring Your Trip</a></li>
+                                    <li><a href="#">Reviews on Cab</a></li>
+                                    <li><a href="#">Security</a></li>
+                                </ul>
+
+                            </div> <!-- End: .each-section -->
+                            
+                            <div class="each-section col-sm-3 col-xs-12">
+
+                                <p class="title"><strong>Contact us</strong></p>
+                                <ul class="nav link-list">
+                                    
+                                    <li><a href="callto:9894123606">Phone: +91 9894123606</a></li>
+                                    <li><a href="mailto:ashwinthanaraj@gmail.com">Mail: rsp@gmail.com</a></li>
+                                    <li><a href="#">Fax: 37 287983209</a></li>
+                                </ul>
+                                
+                            </div> <!-- End: .each-section -->
+                            <div class="each-section vertical-bottom col-sm-3 col-xs-12">
+                                
+                                <ul class="nav">
+                                    <li>
+                                        <div class="li-inner">
+                                            <ul class="nav social-icon">
+                                                <li><a href="#"><i class="icon icons8-facebook"></i></a></li>
+                                                <li><a href="#"><i class="icon icons8-twitter"></i></a></li>
+                                                <li><a href="#"><i class="icon icons8-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="icon icons8-instagram"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                                
+                            </div> <!-- End: .each-section -->
+
+                        </div>
+                    </div> <!-- End: .footer-header -->
+
+                    <div class="copyright text-center col-xs-12">
+                        <p>Copyright: RSP&Co, All rights reserved.</p>
+                    </div> <!-- End: .copyright -->
+
+                </div><!-- End: .section-separator  -->
+            </div> <!-- End: .container  -->
+        </footer>
+        <!-- End: Footer Section 1<head>     
+  
+        
+
+
+
+      <!-- SCRIPTS ========================================-->
+        <script src="js/plagin-js/jquery-1.11.3.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/plagin-js/plagin.js"></script>
+
+        <!-- Custom Script 
+        ==========================================-->
+        <script src="js/custom-scripts.js"></script>
+
+
+    </body>
+
+</html>
